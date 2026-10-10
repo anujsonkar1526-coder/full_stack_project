@@ -20,7 +20,7 @@ function App() {
       // console.log("punima");
       async function getData(){
         console.log(".....loading");
-        let responce=await fetch("http://localhost:3000/api/user");
+        let responce=await fetch("https://full-stack-project-m073.onrender.com/api/user");
            let data=  await responce.json();
            console.log(data);
            setProducts(data);
